@@ -126,12 +126,12 @@ footer {
 }
 
 #onephotography {
-    width: 390px;
+    width: 340px;
     float: left;
-    padding-left: 150px;
 }
 
 #twophotography {
+    width: 740px;
+    float:left;
 }
-#threephotography {
-}
+
