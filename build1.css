@@ -121,8 +121,14 @@ footer {
 #viewingspacephotography {
     width: 1080px;
     display: inline-block;
+    font-family: helvetica;
+    font-size: 80%;
 }
+
 #onephotography {
+    width: 390px;
+    float: left;
+    padding-left: 150px;
 }
 
 #twophotography {
