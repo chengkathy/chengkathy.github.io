@@ -24,6 +24,26 @@ footer {
 
 }
 
-#container {
+#viewingspace {
     width: 1080px;
+    display: inline-block;
+}
+
+#one {
+    width: 360px;
+    float: left;
+}
+
+#two {
+    width: 360px;
+    float: left;
+}
+
+#three {
+    width: 360px;
+    float: left;
+}
+
+#footer {
+    clear: both;
 }
