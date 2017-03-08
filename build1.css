@@ -9,14 +9,74 @@ h1 {
     letter-spacing: 3px;
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
+nav {
+    width: 1080px;
+    float: none;
+    align-items: center;
 }
 
-nav {
-    letter-spacing: inherit;
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
 }
+
+li {
+    display: inline-block;
+    float: inherit;
+    align-content: center;
+}
+
+li a {
+    text-decoration: none;
+    height: 15px;
+    padding-left:10px;
+    padding-right: 10px;
+    align-content: center;
+}
+
+li a:hover {
+    color: white;
+    background-color: white;
+    
+}
+
+li a:active {
+    color: darkgray;
+}
+
+li a:visited {
+    color: darkgray;   
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ffffff}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 footer { 
     display: block;
