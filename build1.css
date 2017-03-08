@@ -23,3 +23,7 @@ footer {
     color: darkgray
 
 }
+
+#container {
+    width: 1080px;
+}
