@@ -32,16 +32,19 @@ footer {
 #one {
     width: 360px;
     float: left;
+    align-content: center;
 }
 
 #two {
     width: 360px;
     float: left;
+    align-content: center;
 }
 
 #three {
     width: 360px;
     float: left;
+    align-content: center;
 }
 
 #footer {
