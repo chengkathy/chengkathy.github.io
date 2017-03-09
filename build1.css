@@ -142,6 +142,21 @@ footer {
     align-content: center;
 }
 
+#onepaint {
+    width: 360px;
+    float: left;
+}
+
+#twopaint {
+    width: 360px;
+    float: left;
+}
+
+#threepaint {
+    width: 360px;
+    float: left;
+}
+
 #viewingspacephotography {
     width: 1080px;
     display: inline-block;
