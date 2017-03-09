@@ -91,6 +91,34 @@ footer {
 
 }
 
+#footer {
+    clear: both;
+}
+
+#category1 {
+    width: 360px;
+    float: left;
+    line-height: 3;
+    font-family: helvetica;
+}
+
+#category2 {
+    width: 360px;
+    float: left;
+    line-height: 3;
+    font-family: helvetica;
+
+}
+
+#category3 {
+    width: 360px;
+    float: left;
+    line-height: 3;
+    font-family: helvetica;
+
+}
+
+
 #viewingspace {
     width: 1080px;
     display: inline-block;
@@ -112,10 +140,6 @@ footer {
     width: 360px;
     float: left;
     align-content: center;
-}
-
-#footer {
-    clear: both;
 }
 
 #viewingspacephotography {
