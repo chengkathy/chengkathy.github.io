@@ -1,0 +1,906 @@
+body {
+    height: auto;
+    font-family: 'Montserrat';
+}
+
+.loader {
+    position: fixed;
+    width: 100%;
+    padding-top: 265px;
+    height: 100%;
+    z-index: 9999;
+    overflow: visible;
+    background-color: white;
+}
+
+
+#nav {
+    position: fixed;
+    width: 330px;
+    height: 1500px;
+    float: left;
+    font-family: 'Poiret One';
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: .25pt;
+    z-index: 1000;
+}
+
+.navtitle {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.navtitle p1 {
+    color: #e39479;
+    font-size: 35px;
+}
+
+.navtitle p2 {
+    font-size: 35px;
+}
+
+.navtitle p3 {
+    font-size: 13px;
+}
+
+.hr1 { 
+    border: none;
+    border-top: 3.25px #000000 solid;
+    width: 240px;
+    height: 1px;
+}
+
+hr2 { 
+    display: block;
+    color: black;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+ul {
+    list-style-type: none;
+    align-content: center;
+    width: 330px;
+    margin: 0;
+    padding: 0;
+    float: left;
+} 
+
+li a {
+    font-family: 'Poiret One';
+    font-size: 17px;
+    line-height: 3;
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #c9dc58;
+}
+
+li a:active {
+    color: #e39479;
+}
+
+/* Rotate */
+.hvr-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.45s;
+  transition-duration: 0.45s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+div.gallery {
+    height: 275px;
+    position: relative;
+}
+
+div.gallery:hover .overlay {
+    opacity: .925;
+}
+
+.gallery1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/icecreampattern.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+.gallery2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/Graphite1.jpg');
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position: 35% 50%; 
+}
+
+.gallery3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/metramag.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 48% 50%; 
+}
+
+.gallery4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/ODEX.jpg');
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    background-color: lightgray;
+}
+
+.gallery5 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/beeryapp.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 41% 48%;
+}
+
+.gallery6 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/bee.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-color: black;
+}
+
+.gallery7 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/teamoyama.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #696967;
+}
+
+.gallery8 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/adam.jpg');
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    background-color: #312f32;
+}
+
+.gallery9 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/pie.jpg');
+    background-size: 245%;
+    background-repeat: no-repeat;
+    background-position: 25% 10%;
+    background-color: #f8f0e5;
+}
+
+.gallery10 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/alysha.jpg');
+    background-size: 128%;
+    background-repeat: no-repeat;
+    background-position: 10% 41%;
+    background-color: #000000;
+}
+
+.gallery11 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/heart.jpg');
+    background-size: 168%;
+    background-repeat: no-repeat;
+    background-position: 50% 56%;
+    background-color: #aaa29f;
+}
+
+.gallery12 {
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/paint.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 40% 60%;
+    background-color: #a6bad3;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .6s ease;
+    background-color: #c9dc58;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 13.75px;
+  letter-spacing: .25px;
+  position: relative;
+  top: 76%;
+  left: 50%;
+  line-height: 1;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text p1{
+    font-family: 'Poiret One';
+    font-size: 18pt;
+    color: black;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    float: left;
+    top: 219px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#portfolio {
+    width: auto;
+    height: auto;
+    padding-left: 330px;
+    position: relative;
+    text-decoration: none;
+}
+
+#footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 330px;
+    font-size: 9.5px;
+    letter-spacing: 1px;
+    color: black;
+    line-height: 3;
+    opacity: .9;
+    background-color: white;
+    z-index: 2000;
+}
+
+#aboutme {
+    padding-top: 130px;
+    margin-left: 330px;
+}
+
+#aboutme h1{
+    font-family: 'Poiret One';
+}
+
+#aboutme hr{
+    order: none;
+    border-top: 3.25px #000000 solid;
+    width: 65%;
+    height: 1px;
+    float: left;
+}
+
+#aboutme hr2{
+    order: none;
+    border-top: 1px #000000 solid;
+    width: 8%;
+    float: left;
+}
+
+.intro {
+    line-height: 1;
+    text-align: justify;
+    widows: 3;
+    orphans: 3;
+    float: left;
+}
+
+.intro1 {
+    width: 40%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#aboutme p1{
+    color: #e39479;
+    font-family: 'Poiret One';
+    letter-spacing: .5px;
+    font-size: 12pt;
+}
+
+#aboutme p2{
+    color: dimgray;
+    font-family: 'Montserrat';
+    font-size: 9pt;
+    line-height: 1.6;
+}
+
+#aboutme p3{
+    padding-left: 10px;
+    color: dimgray;
+    font-family: 'Avenir';
+    font-size: 10pt;
+    letter-spacing: .5px;
+}
+
+.contact {
+    float: left;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.cv1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.cv1 a:hover {
+    opacity: 0;
+}
+
+.cv2 {
+    position: relative;
+    z-index: 0;
+}
+
+
+/*lightbox*/
+
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+/*bootstrap modal dialog*/
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 60%;
+	position: relative;
+    background-color: white;
+}
+
+#close {
+	color: black;
+	position: relative;
+    float: right;
+    padding-top: 10px;
+}
+
+
+#desc {
+    height: 410px;
+}
+
+#desctext hr{
+    color: black;
+    width: 50%;
+}
+
+
+#descimg {
+    width: 55%;
+    height: 380px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 15px;
+    overflow-y:scroll;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+
+#desctext {
+    float: left;
+    width: 40%;
+    height: 415px;
+    line-height: 1.25;
+    padding-top: 50px;
+}
+
+#desctext p {
+    font-size: 9pt;
+    line-height: 1.75;
+}
+
+#desctext h2 {
+    font-family: 'Poiret One';
+    text-align: center;
+    display: inline;
+    line-height: 1.5;
+}
+
+#desctext h3 {
+    font-size: 10.25pt;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    display: inline;
+    color: #e39479;
+}
+
+#desctext a {
+    font-weight: 600;
+    color: dimgray;
+    text-decoration: none;
+}
+
+#desc a:hover {
+    text-decoration: none;
+}
+
+#desc a:active {
+    text-decoration: none;
+}
+
+#desctextmagazine {
+    text-align: justify;
+}
+
+#desctextodex {
+    text-align: justify;
+}
+
+#desctextodex {
+    text-align: justify;
+}
+
+
+/* hang feature for closing */
+
+@keyframes hvr-hang {
+  0% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  100% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+}
+@-webkit-keyframes hvr-hang-sink {
+  100% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+}
+@keyframes hvr-hang-sink {
+  100% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+}
+.hvr-hang {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
+  -webkit-animation-name: hvr-hang-sink, hvr-hang;
+  animation-name: hvr-hang-sink, hvr-hang;
+  -webkit-animation-duration: .6s, 1.5s;
+  animation-duration: .6s, 1.5s;
+  -webkit-animation-delay: 0s, .6s;
+  animation-delay: 0s, .6s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+/*responsive code*/
+
+
+@media only screen and (max-width: 2000px){
+    .responsive {
+        width: 32.55%;
+    }
+    
+    div.gallery {
+    height: 375px;
+    position: relative;
+    }
+    
+    #portfolio {
+    padding-bottom: 1785px;
+    }
+    
+    .modalDialog > div {
+	width: 70%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 5px 5px 10px;
+    background-color: white;
+    }
+    
+    #desc {
+    height: 500px;
+    padding: 0px; 
+    }
+
+    #descimg {
+    width: 55%;
+    height:485px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 15px;
+    overflow-y:scroll;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    }
+    
+    #desctext {
+    float: left;
+    width: 40%;
+    height: 415px;
+    text-align: center;
+    line-height: 1.25;
+    padding-top: 65px;
+    padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1500px){
+    .responsive {
+    width: 32.55%;
+    }
+    
+    div.gallery {
+    height: 275px;
+    position: relative;
+    }
+    
+    #portfolio {
+    padding-bottom: 1375px;
+    }
+    
+    #descimgmomo {
+    padding-top: 25px;
+    }
+    
+    #desctext {
+    float: left;
+    width: 39.75%;
+    height: 415px;
+    line-height: 1.25;
+    padding-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+/*formobile*/
+    
+    .loader {
+    display: none;
+    }
+    
+    #nav {
+    position: relative;
+    align-content: center;
+    float: left;
+    width: 100%;
+    height: auto;
+    font-family: 'Poiret One';
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: .25pt;
+    }
+    
+    .navtitle {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    }
+    
+    .navtitle p1 {
+    color: #e39479;
+    font-size: 40px;
+    }
+
+    .navtitle p2 {
+    font-size: 45px;
+    }
+    
+    .navtitle p3 {
+    display: none;
+    }
+
+    hr { 
+    display: none;
+    }
+    
+    ul {
+    display: none;
+    } 
+
+    li a {
+    display: none;
+    }
+    
+    #portfolio {
+    position: relative;
+    float: left;
+    padding-left: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: auto;
+    }
+    
+    div.gallery {
+    z-index: 1000;
+    float: left;
+    width: 100%;
+    }
+    
+    .responsive {
+    float: left;
+    width: 100%;
+    top: 0;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    }
+    
+    #footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: black;
+    line-height: 2.5;
+    opacity: 1;
+    background-color: white;
+    z-index: 2000;
+    }
+    
+    #aboutme {
+    position: relative;
+    width: 80%;
+    margin-left: 40px;
+    }
+
+    #aboutme h1{
+    font-family: 'Poiret One';
+    font-size: 20px;
+    }
+
+    #aboutme hr{
+    display: none;
+    }
+
+    .intro {
+    width: 100%;
+    line-height: 1;
+    text-align: justify;
+    }
+
+.intro1 {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#aboutme p1{
+    color: #e39479;
+    font-family: 'Poiret One';
+    letter-spacing: .5px;
+    font-size: 12pt;
+}
+
+#aboutme p2{
+    color: dimgray;
+    font-family: 'Montserrat';
+    font-size: 9pt;
+    line-height: 1.6;
+}
+
+#aboutme p3{
+    padding-left: 10px;
+    color: dimgray;
+    font-family: 'Avenir';
+    font-size: 10pt;
+    letter-spacing: .5px;
+}
+
+.contact {
+    float: left;
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
+
+.cv1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.cv1 a:hover {
+    opacity: 0;
+}
+
+.cv2 {
+    position: relative;
+    z-index: 0;
+}
+    
+    /*lightbox*/
+
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.7);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+/*bootstrap modal dialog*/
+
+    .modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+    }
+
+    .modalDialog > div {
+	width: 90%;
+    height: 90%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 5px 5px 10px;
+    background-color: white;
+    }
+
+    #close {
+    width: auto;
+	position: fixed;
+    padding-top: 0px;
+    padding-left: 5px;
+    }
+
+    #desc {
+    height:90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    }
+
+    #desctext hr{
+    display: none;
+    }
+
+
+    #descimg {
+    width: 100%;
+    height: auto;
+    overflow-y:scroll;
+    padding-right: 15px;
+    padding-top: 15px;
+    }
+
+
+    #desctext {
+    width: 100%;
+    line-height: 1.25;
+    padding-top: 20px;
+    padding-right: 20px;
+    }
+
+    #desctext p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 10pt;
+    line-height: 1.75;
+    }
+
+    #desctext h2 {
+    font-family: 'Poiret One';
+    text-align: center;
+    display: inline;
+    line-height: 1.5;
+    }
+
+    #desctext h3 {
+    font-size: 10.25pt;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    display: inline;
+    color: #e39479;
+    }
+
+    #desctext a {
+    font-weight: 600;
+    color: dimgray;
+    text-decoration: none;
+    }
+
+    #desc a:hover {
+    text-decoration: none;
+    }
+
+    #desc a:active {
+    text-decoration: none;
+    }
+
+    #desctextmagazine {
+    text-align: justify;
+    }
+
+    #desctextodex {
+    text-align: justify;
+    }
+    
+    .overlay {
+    display: none;
+    }
+    
+    
+    
+}
+
+</style>

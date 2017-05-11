@@ -1,49 +1,366 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="build1.css">
-        <meta charset="UTF-8">
-        <br><br>    
-        <title>KATHY CHENG</title>
-        </head>
+<head>
+    <title>Kathy Cheng - Portfolio</title>
+    <link rel="icon" href="Images/favicon.png" type="image/gif" sizes="16x16">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-<body>
-<div id="Container">
-    <h1 style="font-family:helvetica;"><a href="index.html">
-        <style>
-            a:link    {color:darkgray; background-color:transparent; text-decoration:none}
-            a:visited {color:darkgray; background-color:transparent; text-decoration:none}
-            a:hover   {color:coral; background-color:transparent; text-decoration:none}
-            a:active  {color:yellow; background-color:transparent; text-decoration:none}
-        </style>KATHY CHENG</a></h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
-    <nav style="font-family:helvetica;font-size:70%;">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li class="dropdown">
-                <a href="portfolio.html" class="dropbtn">PORTFOLIO</a>
-                <div class="dropdown-content">
-                    <a href="digital.html">Digital</a>
-                    <a href="traditional.html">Traditional</a>
-                    <a href="photography.html">Photography</a> 
-                </div>
-            </li>
-            <li><a href="page3.html">ABOUT ME</a></li>
-            <li><a href="page4.html">RESUME</a></li> 
-            <li><a href="page5.html">CONTACT</a></li>
-        </ul>
-    </nav>
-</div>
-    <br><br><br>
 
-    <footer style="font-family:helvetica;font-size:70%;">
-        <a href="https://www.linkedin.com/">
-            <img src="/Images/linkedin.jpg" width="20 px">
-        </a>&nbsp;
-        <a href="https://www.instagram.com/chengkathy/?hl=en">
-            <img src="/Images/insta.jpg" width="20 px">
-        </a>&nbsp;
-        <a href="https://plus.google.com/u/0/114518876177552197495">
-            <img src="/Images/google+.jpg" width="20 px">
-        </a>
-        <br><br>&copy; KATHY CHENG 2017</footer>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("fast");
+})
+    </script>
+    
+</head>
+<body>
+    
+<div class="loader"><center><img src="Images/loading.gif" width="auto"></center></div>
+
+<div id="nav">
+    <center><img src="Images/kcanimation.gif" width="60%"></center>
+    <hr class="hr1"><div class="navtitle"><p1>kathy</p1><p2>cheng</p2><br><p3>graphic designer / illustrator</p3></div>
+    <hr class="hr1"><br>
+    <ul>
+        <li><a href="index.html" class="hvr-rotate"><center>WORK</center></a></li>
+        <li><a href="about.html" class="hvr-rotate"><center>ABOUT</center></a></li>
+    </ul>
+</div>
+
+<div id="momosicecream" class="modalDialog">
+            <div id="desc">
+                <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+                    <div id="descimg"><div id="descimgmomo">
+                        <center><img src="Images/momo.jpg" width="100%"></center></div>
+                    </div>
+                    <div id="desctext">
+                        <h2>mömo’s ice cream</h2> <br><h3>Packaging Design &amp; Brand Identity</h3>
+                        <hr>
+                        <p>Packaging design and branding of an ice cream product based on a fictional company, Mömo’s.<br><br><i>Spring 2017</i></p>
+                    </div>
+            </div>
+        </div>
+
+<div id="graphiteseries" class="modalDialog">
+            <div id="desc">
+                <a href="#close" title="Close" class="hvr-hang"><div id="close">&#10005;</div></a>
+                    <div id="descimg">
+                        <img src="Images/Graphite1.jpg" width="100%"><br><br>
+                        <img src="Images/Graphite3.jpg" width="100%"><br><br>
+                        <img src="Images/Graphite2.jpg" width="100%">
+                    </div>
+                    <div id="desctext">
+                        <h2>untitled</h2> <br><h3>Traditional Illustration</h3>
+                        <hr>
+                        <p>An exploration of graphite as a traditional medium, done at a descriptive drawing course at CSUF.
+                            <br><br><i>Fall 2015</i></p>
+                    </div>
+            </div>
+</div>
+
+
+<div id="metramagazine" class="modalDialog">
+            <div id="desc">
+                <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+                    <div id="descimg">
+                        <center><img src="Images/magazinespreads.jpg" width="100%"></center>
+                    </div>
+                    <div id="desctext">
+                        <h2>metra</h2> <br><h3>Print &amp; Editorial Design</h3>
+                        <hr><div id="desctextmagazine">
+                        <p>Metra is an art based magazine, focused on counter-cultural art primarily in Southern California. It is hand bound with original works including illustration, photography, found objects, and graphic art. Feature articles focus on underground comics, tattoo art, erotica, and graffiti. Metra was created to highlight the validity of counter-cultural art as true forms, standing against an art world that constantly upholds Eurocentric and western standards of art as it's only respectable standard. <br><br><i>Fall 2016</i></p></div>
+                    </div>
+            </div>
+</div>
+
+<div id="beery" class="modalDialog">
+            <div id="desc">
+                <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+                    <div id="descimg">
+                        <center><img src="Images/beeryinterface.png" width="100%"></center>
+                    </div>
+                    <div id="desctext">
+                        <h2>beer&yuml; app</h2> <br><h3>Mobile UI/UX Design</h3>
+                        <hr><div id="desctextmagazine">
+                        <p>The Beer&yuml; Mobile App was designed as an easier, more accessible way to discover and experience
+                            breweries. It was created with a platform for any beer drinking user - from the average, social drinker, to the well-versed beer connoisseur - looking to expand their horizons and digitally access local breweries. The app’s concept was designed with the idea of having a clean, functional, and laid-back interface that will attract and make the beer drinking experience all the more exciting for its users.<br><br><i>Spring 2017</i></p></div>
+                    </div>
+            </div>
+</div>
+    
+<div id="insectum" class="modalDialog">
+        <div id="desc">
+            <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+                <div id="descimg">
+                    <center>
+                    <img src="Images/butterfly.jpg" width="100%"><br>
+                    <img src="Images/bee.jpg" width="100%"><br>
+                    <img src="Images/beetle.jpg" width="100%"></center>
+                 </div>
+                 <div id="desctext">
+                     <h2>insectum - a series</h2> <br><h3>Digital Illustration</h3>
+                    <hr>
+                     <p>A series of insect forms created from intertwined contour lines. Done on Adobe Illustrator.
+                         <br><br><i>Spring 2017</i></p>
+                </div>
+        </div>
+</div>
+    
+
+    
+<div id="odexsite" class="modalDialog">
+        <div id="desc">
+            <a href="#close" title="Close" class="hvr-hang"><div id="close">&#10005;</div></a>
+                <div id="descimg">
+                    <img src="Images/ODEX.jpg" width="100%"><br>
+                    <img src="Images/odexinterface2.jpg" width="100%">
+                </div>
+                <div id="desctext">
+                    <h2>o-dex website</h2> <br><h3>Visual Identity and Web Design - UI/UX</h3>
+                    <hr><div id="desctextodex"><p>A collaborative project with Muneeb Arain for our protypal technology, the O-Dex: an indexical marine species app for mobile devices and compatible tablet to increase ocean awareness and promote marine conservation.<br><br>Check out the website 
+                    <a href="http://483eclass.com/spring17/build_2/Kathy/index.html" target="_blank">here!</a><br><br><i>Spring 2017</i></p></div>
+                </div>
+        </div>
+</div>
+    
+<div id="oyama" class="modalDialog">
+            <div id="desc">
+                <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+                    <div id="descimg">
+                        <center><img src="Images/oyama.jpg" width="100%"></center>
+                    </div>
+                    <div id="desctext">
+                        <h2>team oyama logo</h2> <br><h3>Visual Identity &amp; Logo Design</h3>
+                        <hr><div id="desctextodex">
+                        <p>A logo design and visual identity exploration for Team Oyama, a Muay Thai Gym based in Irvine, California. Done as freelance work, the logos explore the gym’s mountain visual incorporated with their kanji letters to give off a traditional aesthetic and strong presence.<br><br><i>Spring 2017</i></p></div>
+                    </div>
+            </div>
+        </div>
+
+<div id="adam" class="modalDialog">
+            <div id="desc">
+                <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+                    <div id="descimg">
+                        <center><img src="Images/adam2.jpg" width="100%"></center>
+                    </div>
+                    <div id="desctext">
+                        <h2>intertwined</h2> <br><h3>Digital Illustration</h3>
+                        <hr>
+                        <p>A single line digital illustration, done on Adobe Illustrator.<br><br><i>Spring 2017</i></p>
+                    </div>
+            </div>
+        </div>
+
+<div id="pie" class="modalDialog">
+        <div id="desc">
+            <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+            <div id="descimg">
+                    <center><img src="Images/pie.jpg" width="100%"><br>
+                    <img src="Images/pie2.png" width="100%"></center>
+            </div>
+            <div id="desctext">
+            <h2>pie in the sky, pie co.</h2> <br><h3>Web Redesign - UI/UX</h3><hr>
+                <p>A redesign of an existing company's website, www.pieintheskypieco.com.<br><br>Check out the website 
+                    <a href="http://483eclass.com/spring17/redesign/Kathy/index.html" target="_blank">here!</a><br><br><i>Spring 2017</i></p>
+            </div>
+        </div>
+</div>
+    
+<div id="alysha" class="modalDialog">
+        <div id="desc">
+            <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+            <div id="descimg">
+                    <center><img src="Images/alysha.jpg" width="100%"></center>
+            </div>
+            <div id="desctext">
+            <h2>untitled</h2> <br><h3>Digital Painting</h3><hr>
+                <p>A digital painting of model Alysha Nett with cats,<br>done on Adobe Photoshop.<br><br><i>Spring 2017</i></p>
+            </div>
+        </div>
+</div>
+    
+<div id="drip" class="modalDialog">
+        <div id="desc">
+            <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+            <div id="descimg">
+                    <center><img src="Images/heart.jpg" width="100%"></center>
+            </div>
+            <div id="desctext">
+            <h2>drip</h2> <br><h3>Digital Illustration</h3><hr>
+                <p>An exploration of contour lines on an anatomical heart,<br>done on Adobe Illustrator.<br><br><i>Spring 2017</i></p>
+            </div>
+        </div>
+</div>
+
+<div id="paint" class="modalDialog">
+        <div id="desc">
+            <a href="#close" title="bye" class="hvr-hang"><div id="close">&#10005;</div></a>
+            <div id="descimg">
+                    <center><img src="Images/paint.jpg" width="100%"><br>
+                <img src="Images/paint3.jpg" width="100%"><br>
+                <img src="Images/paint2.jpg" width="100%"></center>
+            </div>
+            <div id="desctext">
+            <h2>drip</h2> <br><h3>Digital Photography</h3><hr>
+                <i>Fall 2016</i>
+            </div>
+        </div>
+</div>
+
+<div id="portfolio">
+<a href="#metramagazine" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery3"></div>
+            <div class="overlay">
+                <div class="text"><p1>metra mag</p1><br><br><hr2></hr2><br>Print &amp; Editorial Design<br><br>Fall 2016</div>
+      </div>
+  </div>
+</div>
+</a>
+    
+<a href="#graphiteseries" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery2"></div>
+            <div class="overlay">
+                <div class="text"><p1>graphite series - untitled</p1><br><br><hr2></hr2><br>Traditional Illustration<br><br>Fall 2015</div>
+      </div>
+  </div>
+</div>
+</a>
+    
+<a href="#insectum" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery6"></div>
+            <div class="overlay">
+                <div class="text"><p1>insectum - a series</p1><br><br><hr2></hr2><br>Digital Illustration<br><br>Spring 2017</div>
+      </div>
+  </div>
+</div>
+</a>
+    
+<a href="#odexsite" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery4"></div>
+            <div class="overlay">
+                <div class="text"><p1>the odex site</p1><br><br><hr2></hr2><br>Visual Identity &amp; Web Design<br><br>Spring 2017</div>
+      </div>
+  </div>
+</div>
+    </a>
+
+<a href="#beery" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery5"></div>
+            <div class="overlay">
+                <div class="text"><p1>beer&yuml;</p1><br><br><hr2></hr2><br>Mobile UI / UX Design<br><br>Spring 2017</div>
+      </div>
+  </div>
+</div>
+</a>
+
+<a href="#momosicecream" class="portfolio-box"><div class="responsive">
+  <div class="gallery">
+      <div class="gallery1"></div>
+      <div class="overlay">
+          <div class="text"><p1>mömo’s ice cream</p1><br><br><hr2></hr2><br>Packaging Design &amp; Brand Identity<br><br>Spring 2017</div>
+      </div>
+    </div>
+  </div>
+</a>
+
+<a href="#oyama" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery7"></div>
+            <div class="overlay">
+                <div class="text"><p1>team oyama logo</p1><br><br><hr2></hr2><br>Visual Identity &amp; Logo Design<br><br>Spring 2017</div>
+      </div>
+  </div>
+</div>
+</a>
+
+<a href="#adam" class="portfolio-box">    
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery8"></div>
+            <div class="overlay">
+                <div class="text"><p1>intertwined</p1><br><br><hr2></hr2><br>Digital Illustration<br><br>Spring 2017</div>
+      </div>
+  </div>
+</div>
+    </a>
+
+<a href="#pie" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery9"></div>
+            <div class="overlay">
+                <div class="text"><p1>pie..., co. redesign</p1><br><br><hr2></hr2><br>Web Design - UI/UX<br><br>Spring 2017</div>
+      </div>
+  </div>
+</div>
+    </a>
+
+<a href="#alysha" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery10"></div>
+            <div class="overlay">
+                <div class="text"><p1>untitled</p1><br><br><hr2></hr2><br>Digital Painting (PSD)<br><br>Spring 2017</div>
+      </div>
+  </div>
+</div>
+    </a>
+
+<a href="#drip" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery11"></div>
+            <div class="overlay">
+                <div class="text"><p1>drip</p1><br><br><hr2></hr2><br>Digital Illustration<br><br>Spring 2017</div>
+      </div>
+  </div>
+</div>
+</a>
+
+<a href="#paint" class="portfolio-box">
+<div class="responsive">
+  <div class="gallery">
+      <div class="gallery12"></div>
+            <div class="overlay">
+                <div class="text"><p1>untitled</p1><br><br><hr2></hr2><br>Digital Photography<br><br>Fall 2016</div>
+      </div>
+  </div>
+</div>
+</a>
+
+
+</div>
+    
+<div id="footer"><center>
+    &copy; 2017 chengkathy | All Rights Reserved.</center>
+</div>
+    
+
+
+</body>
+</html>
