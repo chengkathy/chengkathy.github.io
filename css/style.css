@@ -112,7 +112,7 @@ div.gallery:hover .overlay {
 .gallery1 {
     width: 100%;
     height: 100%;
-    background-image: url('../Images/questrial.jpg');
+    background-image: url('../images/questrial.jpg');
     background-size: 170%;
     background-position: 50% 50%; 
     background-repeat: no-repeat;
@@ -122,7 +122,7 @@ div.gallery:hover .overlay {
 .gallery2 {
     width: 100%;
     height: 100%;
-    background-image: url('../Images/fonuts-1.jpg');
+    background-image: url('../images/fonuts-1.jpg');
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: 55% 50%; 
@@ -131,7 +131,7 @@ div.gallery:hover .overlay {
 .gallery3 {
     width: 100%;
     height: 100%;
-    background-image: url('../Images/metra-1.jpg');
+    background-image: url('../images/metra-1.jpg');
     background-size: 140%;
     background-repeat: no-repeat;
     background-position: 50% 56%;
@@ -141,7 +141,7 @@ div.gallery:hover .overlay {
 .gallery4 {
     width: 100%;
     height: 100%;
-    background-image: url('../Images/spruce-1.jpg');
+    background-image: url('../images/spruce-1.jpg');
     background-size: 170%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -150,7 +150,7 @@ div.gallery:hover .overlay {
 .gallery5 {
     width: 100%;
     height: 100%;
-    background-image: url('../Images/bishop-2.jpg');
+    background-image: url('../images/bishop-2.jpg');
     background-size: 160%;
     background-repeat: no-repeat;
     background-position: 70% 50%;
@@ -159,7 +159,7 @@ div.gallery:hover .overlay {
 .gallery6 {
     width: 100%;
     height: 100%;
-    background-image: url('../Images/beery-1.jpg');
+    background-image: url('../images/beery-1.jpg');
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -169,7 +169,7 @@ div.gallery:hover .overlay {
 .gallery7 {
     width: 100%;
     height: 100%;
-    background-image: url('../Images/bug-1.jpg');
+    background-image: url('../images/bug-1.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -179,7 +179,7 @@ div.gallery:hover .overlay {
 .gallery9 {
     width: 100%;
     height: 100%;
-    background-image: url('../Images/oyama-1.jpg');
+    background-image: url('../images/oyama-1.jpg');
     background-size: 125%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -189,7 +189,7 @@ div.gallery:hover .overlay {
 .gallery8 {
     width: 100%;
     height: 100%;
-    background-image: url('../Images/odex-1.jpg');
+    background-image: url('../images/odex-1.jpg');
     background-size: 170%;
     background-repeat: no-repeat;
     background-color: lightgray;
