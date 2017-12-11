@@ -1,9 +1,17 @@
 body {
     height: auto;
+    background-color: black;
 }
 
 .top {
     display: none;
+}
+
+hr { 
+    display: none;
+} 
+
+.hr {
 }
 
 .loader {
@@ -18,13 +26,6 @@ body {
     background-color: white;
 }
 
-hr { 
-    display: none;
-    } 
-
-.hr {
-}
-
 #nav {
     position: fixed;
     width: 330px;
@@ -34,6 +35,7 @@ hr {
     text-align: center;
     letter-spacing: .25pt;
     z-index: 1000;
+    background-color: black;
 }
 
 .navtitle {
@@ -44,7 +46,7 @@ hr {
 }
 
 .navtitle a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -68,6 +70,7 @@ hr {
     letter-spacing: 5pt;
     font-weight: 600;
     line-height: 1;
+    color: white;
 }
 
 
@@ -97,18 +100,18 @@ li a {
     font-family: 'Muli';
     font-size: 14px;
     line-height: 3;
-    color: black;
+    color: white;
     display: block;
     text-decoration: none;
 }
 
 li a:hover {
     text-decoration: none;
-    color: lightgray;
+    color: dimgray;
 }
 
 li a:active {
-    color: lightgray;
+    color: #ffffff;
 }
 
 .switch {
@@ -159,7 +162,7 @@ div.gallery {
 }
 
 div.gallery:hover .overlay {
-    opacity: .75;
+    opacity: .85;
 }
 
 .gallery1 {
@@ -301,6 +304,7 @@ div.gallery:hover .overlay {
     position: relative;
     overflow: hidden;
     text-decoration: none;
+    
 }
 
 #portfolio {
@@ -326,6 +330,7 @@ div.gallery:hover .overlay {
     height: 100%;
     text-align: center;
     padding-top: 15%;
+    color: white;
 }
 
 #worksdesc p1 {
@@ -368,19 +373,19 @@ div.gallery:hover .overlay {
 }
 
 .details p6 {
-    color: white;
+    color: black;
     font-size: 33px;
 }
 
 .details p4 a {
     text-decoration: none;
-    color: darkgray;
+    color: lightgray;
     font-size: 33px;
 }
 
 .details p4 a:hover {
     text-decoration: none;
-    color: black;
+    color: dimgray;
 }
 
 .details p4 a:active {
@@ -388,7 +393,7 @@ div.gallery:hover .overlay {
 }
 
 .details p5 {
-    color: black;
+    color: gray;
     font-size: 16px;
 }
 
@@ -416,11 +421,13 @@ div.gallery:hover .overlay {
     font-weight: 700;
     letter-spacing: 1.25px;
     font-family: 'Muli';
+    color: white;
 }
 
 #about-11 {
     float: left;
     width: 80%;
+    color: white;
 }
 
 #about-11 p2 {
@@ -461,6 +468,7 @@ div.gallery:hover .overlay {
     font-weight: 700;
     letter-spacing: 1px;
     font-family: 'Muli';
+    color: white;
 }
 
 #about-2 p2 {
@@ -468,6 +476,7 @@ div.gallery:hover .overlay {
     font-weight: 200;
     letter-spacing: .25px;
     font-family: 'Muli';
+    color: white;
 }
 
 #footer {
@@ -478,7 +487,7 @@ div.gallery:hover .overlay {
     font-size: 8.25px;
     font-weight: 600;
     letter-spacing: .75px;
-    color: black;
+    color: white;
     line-height: 3;
     z-index: 2000;
 }
@@ -596,6 +605,7 @@ div.gallery:hover .overlay {
     #portfolio {
     padding-bottom: 0px;
     }
+
     
 }
 
@@ -620,12 +630,17 @@ div.gallery:hover .overlay {
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 1px;
+    border-width: .5px;
     width: 80%;
+    color: white;
     } 
 
     .hr {
     padding-top: 45px;
+    }
+    
+    .switch {
+    display: none;
     }
     
     #nav {
@@ -639,16 +654,12 @@ div.gallery:hover .overlay {
     letter-spacing: .25pt;
     }
     
-    .switch {
-    display: none;
-}
-    
     .navtitle {
     padding-top: 30%;
     }
     
     .navtitle p1 {
-    color: #000000;
+    color: #ffffff;
     font-size: 40px;
     }
 
@@ -666,13 +677,14 @@ div.gallery:hover .overlay {
     float: left;
     font-weight: 200;
     letter-spacing: 1px;
+    color: white;
     } 
 
     li a {
     font-family: 'Muli';
     font-size: 15px;
     line-height: 3;
-    color: black;
+    color: white;
     display: block;
     text-decoration: none;
     }
@@ -720,10 +732,10 @@ div.gallery:hover .overlay {
     width: 100%;
     font-size: 10px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
     line-height: 2.5;
     opacity: 1;
-    background-color: white;
+    background-color: black;
     z-index: 2000;
     padding-top: 30px;
     }
@@ -835,15 +847,15 @@ div.gallery:hover .overlay {
     font-family: 'Muli';
 }
     
-.beeryimages {
-    padding-top: 15%;
-}
-    
 #works {
     width: 100%;
     padding-left: 0%;
     padding-right: 0%;
     text-align: center;
+}
+    
+.beeryimages {
+    padding-top: 15%;
 }
 
 #worksdesc {
@@ -918,9 +930,10 @@ div.gallery:hover .overlay {
 
 
 #worksimages {
+    clear: both;
     width: 100%;
-    position: static;
-    padding-top: 340px;
+    position: relative;
+    padding-top: 90%;
 }
     
     .gallery1 {
@@ -1010,6 +1023,7 @@ div.gallery:hover .overlay {
     background-color: lightgray;
     background-position: 50% 50%;
 }
+    
     
     
 }
