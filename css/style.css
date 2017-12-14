@@ -640,8 +640,8 @@ div.gallery:hover .overlay {
     }
     
     .switch {
-    display: none;
-}
+    padding-bottom: 20px;
+    }
     
     .navtitle {
     padding-top: 30%;
