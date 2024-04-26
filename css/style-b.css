@@ -255,6 +255,36 @@ div.gallery:hover .overlay {
     background-position: 50% 50%;
 }
 
+.gallery10 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/paladar-1.jpg');
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-color: #b3b6bb;
+    background-position: 50% 50%;
+}
+
+.gallery11 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/saddleback-1.jpg');
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-color: #b3b6bb;
+    background-position: 50% 50%;
+}
+
+.gallery12 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/twodays-1.jpg');
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-color: #b3b6bb;
+    background-position: 50% 50%;
+}
+
 .overlay {
     position: absolute;
     top: 0;
